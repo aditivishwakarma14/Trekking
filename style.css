@@ -1,0 +1,293 @@
+@font-face {
+    font-family: cur;
+    src: url(./Font/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: AV;
+    src: url(./Font/rustic-roadway-personal-use/RusticRoadway.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , html{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#front{
+    background-image: url(./images/fff.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#txt1{
+    font-family: AV;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 3000;
+    word-spacing: 25px;
+}
+p{
+    font-family: AV;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Main container */
+#second-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Right half */
+.video-box{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;   /* move video to end */
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* Video */
+video{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    margin-left: 5%;
+}
+
+/* Second-half form container */
+#two{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+}
+
+/* Form itself */
+#two form{
+    height: 85%;
+    width: 80%;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+/* Heading */
+#two h3{
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#txt2{
+    text-align: center  ;
+    font-size: 120px;
+    font-family: cur;
+    margin: 25px;
+}
+
+/* Inputs */
+#two input{
+    width: 100%;
+    height: 65px;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+}
+
+/* Button */
+#two button{
+    width: 100%;
+    height: 65px;
+    margin-top: 25px;
+    font-size: 24px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+#txt{
+    margin: 50px;
+    font-size: 120px;
+    font-family: cur;
+    text-align: center  ;
+}
+
+#main{
+   
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    margin:25px;
+    padding: 25px;
+    display: flex;
+    gap: 35px;
+}
+
+#box1{
+    background-image: url(./images/11.jpg);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px gray;
+}
+
+#box2{
+    background-image: url(./images/depositphotos_107124040-stock-photo-hiking-in-himalaya-mountains.jpg);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box3{
+    background-image: url(./images/young-active-woman-walking-mountains-background_97889-647.avif);
+   height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+#box4{
+    background-image: url(./images/b8857474f8d270e5e4720f216c7a8481.jpg);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box5{
+    background-image: url(./images/31f683e84b4f266f66e303035a8180ed.jpg);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box6{
+    background-image: url(./images/12.avif);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box7{
+    background-image: url(./images/Mountaineering-Trekking-In-India.webp);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box8{
+    background-image: url(./images/10.webp);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box9{
+    background-image: url(./images/286e1622-5bad-4c71-9260-cf017614c275_Buran-Ghati-Pass.webp);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box10{
+    background-image: url(./images/11.jpg);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box11{
+    background-image: url(./images/LRM_EXPORT_28411237666949_20181228_183326849.jpg);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#box12{
+    background-image: url(./images/flag.avif);
+    height : 450px;
+    width : 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+#main > div {
+  position: relative;
+}
+
+.hidden {
+  font-size: 25px;
+  position: absolute;
+  bottom: -100%;          /* start from below */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: transparent;
+  padding: 45px;
+  transition: all 0.4s ease;
+}
+
+
+#main > div:hover .hidden {
+  bottom: 0;
+}
+
+
+
+
